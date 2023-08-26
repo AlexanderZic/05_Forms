@@ -25,6 +25,7 @@
 
     <label for="size">Size of Pizza</label>
     <div id="radio-brn"> <!-- typed in div#radio-btn --> 
+      <!-- Radio buttons will all use the same name for a given group. This is so we can make sure only one value is selected at a time, and seperates a radio button from a checkbox -->
       <label>Small</label>
       <input type="radio" name="size" value="">
       <br>
@@ -37,6 +38,10 @@
       <label>X-Large</label>
       <input type="radio" name="size" value="">
     </div>
+
+    <br>
+
+    <button type="submit">Submit</button>
   </form>
   
   <!-- connecting my js file to my html pagbe -->
